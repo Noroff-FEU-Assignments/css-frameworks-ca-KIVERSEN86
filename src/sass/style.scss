@@ -1,0 +1,10 @@
+@import "./custom.scss";
+@import "~bootstrap/scss/bootstrap";
+@import "./partials/typography";
+
+.btn-success {
+    background-color: $colour-primary;
+    color: white;
+}
+
+

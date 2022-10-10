@@ -1,0 +1,12 @@
+h1,h2 {
+    color: $colour-primary;
+}
+
+h1 {
+    font-family: $font-family-headings;
+    font-size: 1.6rem;
+}
+
+h2, p {
+    font-family: $font-family-primary;
+}
