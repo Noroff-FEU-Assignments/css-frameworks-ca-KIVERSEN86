@@ -1,6 +1,23 @@
 form {
     background: #EFEFEF;
+
+    textarea.form-control {
+        min-height: 200px;
+    }
+    
+    .form-check-input {
+        height: 2rem;
+        width: 2rem;
+        margin: 0 10px 0 5px;
+        background-color: $colour-primary;
+    }
+
+    .btn-lg {
+        color: white;
+        background-color: #707070;
+    }
 }
+
 
 .list-group {
     max-width: 230px;

@@ -3,10 +3,18 @@ h1, h2 {
 }
 
 h1 {
-    font-family: $font-family-headings;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-style: italic;
     font-size: 1.6rem;
 }
 
-h2, p {
-    font-family: $font-family-primary;
+h2, h3, h4 {
+    font-family: "Playfair Display", serif;
 }
+
+h5,p,a, .btn,label, .list-group {
+    font-family: "Lato", sans-serif
+}
+
+

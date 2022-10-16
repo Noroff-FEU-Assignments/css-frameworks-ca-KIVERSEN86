@@ -9,13 +9,15 @@ function YayContact() {
     return (
         <>
         <div className="wrapper">
-          <Container><MainNav /></Container>
+            <div className="nav__container">
+            <Container><MainNav /></Container>
+            </div>
             <Container>
                 <h2>Submit your details</h2>
                 <ContactForm />
             </Container>
         </div>
-        
+
         <DefaultFooter />
        
     </>

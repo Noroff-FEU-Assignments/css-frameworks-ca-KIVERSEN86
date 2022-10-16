@@ -15,7 +15,9 @@ function Home() {
     return (
         <>
         <div className="wrapper">
-          <Container><MainNav /></Container>
+        <div className="nav__container">
+            <Container><MainNav /></Container>
+            </div>
        <div><HomeCarousel /></div>
 
         <Container className="yaythings-container">

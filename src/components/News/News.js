@@ -4,15 +4,18 @@ import DefaultFooter from "../Footer";
 import MainNav from "../Nav";
 import NewsCard from "./NewsCard";
 import NewsToolbar from "./NewsToolbar";
+import Heading from "../Heading";
 
 
 function News() {
     return (
         <>
         <div className="wrapper">
-          <Container><MainNav /></Container>
+        <div className="nav__container">
+            <Container><MainNav /></Container>
+            </div>
             <Container>
-                
+                <Heading content="News"/>
                 <NewsToolbar />
                 <NewsCard />
                 <NewsToolbar />
