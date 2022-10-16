@@ -1,0 +1,23 @@
+footer  {
+    background: $colour-input;
+    margin-top: 200px;
+    display: flex;
+    flex-shrink: 0;
+
+    .footer__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 5px;
+        align-items: center;
+
+        @media (min-width: 760px) {
+            flex-direction: row;
+        }
+
+        a {
+            padding: 5px;
+        }
+    }
+
+}

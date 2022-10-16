@@ -1,0 +1,12 @@
+form {
+    background: #EFEFEF;
+}
+
+.list-group {
+    max-width: 230px;
+
+    .list-group-item {
+        background: $body-bg;
+        border: none;
+    }
+}

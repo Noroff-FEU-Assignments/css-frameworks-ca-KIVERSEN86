@@ -1,0 +1,23 @@
+.col {
+    margin-bottom: 30px;
+}
+
+ .card button{
+    background: $colour-primary;
+    color: white;
+    padding: 8px 60px;
+    border-right: solid grey 30px;
+}
+
+.btn-toolbar {
+    margin: 30px 0;
+    padding-left: 10px;
+
+    button {
+        background-color: white;
+    }
+
+    .button__active {
+        background-color: $colour-primary;
+    }
+}
